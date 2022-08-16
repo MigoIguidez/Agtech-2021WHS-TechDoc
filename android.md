@@ -76,6 +76,133 @@ Most of the third-party libraries are integrated using Gradle. They can be added
 - **SearchActivity** - handles the main search page
 - **SearchActivity** - handles the main search page
 - **SearchActivity** - handles the main search page
+- //FRAGMENT-ACTION
+- **RegisterActionFragment** - handles the register page
+- **RiskAssessmentActionFragment** - handles the risk assessment page
+- **SwmsActionFragment** - handles the swms page    
+- //FRAGMENT-ATTACHMENT
+- **AttachmentDetailFragment** - handles the attachment details page
+- **AttachmentlistFragment** - handles the attachment lists page    
+- //FRAGMENT-AUDIT   
+- **CheckListHazardFragment** - handles the checklist hazard page    
+-  //FRAGMENT-CHEMICALS-ESQ 
+- **EsqBatchFormFragment** - handles the esq batch form page
+-  **EsqMainFormFragment** - handles the esq main form page
+-  //FRAGMENT-CHEMICALS
+-  **ChemicalManifestListFragment** - handles the checmical manifest list page
+-  **ChemicalManifestSummaryFragment** - handles the chemical manifest summary page
+-  **ChemicalRegisterDetailFragment** - handles the chemical register detail page
+-  **ChemicalRegisterFragment** - handles the chemical register page
+-  **MsdsProductDetailFragment** - handles the msds product detail page
+-  **MsdsSearchFragment** - handles the msds search page
+-  **MsdsSearchResultFragment** - handles the msds search result page
+-  //FRAGMENT-DYNAMICTEMPLATE
+-  **AddDataTemplateFragment** - handles the add data template page
+-  **DynamicDetailFormFragment** - handles the dynamic detail form page
+-  **DynamicTemplateFormFragment** - handles the dynamic template form page
+-  **DynamicTemplateListFragment** - handles the dynamic template list page
+-  **TemplateFormFragment** - handles the template form page
+-  //FRAGMENT-HAZARD
+-  **HazardFormFragment** - handles the hazard form page
+-  **HazardFormPresenter** - handles the hazard presenter page
+-  **HazardFormView** - handles the hazard form view page
+-  **HazardTemplateFragment** - handles the hazard template page
+-  **HazardTemplatePresenter** - handles the hazard template presenter page
+-  **HazardTemplateView** - handles the hazard template view page
+-  //FRAGMENT-INCIDENT
+-  **IncidentAdditionalFragment** - handles the incident addtional page
+-  **IncidentAssessmentFragment** - handles the incident assessment page
+-  **IncidentDetailFragment** - handles the incident detail page
+-  **IncidentHazardDetailsFragment** - handles the incident hazard details page
+-  **IncidentHazardFormFragment** - handles the incident hazard form page
+-  **IncidentSimplifiedDetailFragment** - handles the incident simplified detail page
+-  **InicdentTreatmentFragment** - handles the incident treatment page
+-  **IncidentWitnessFormFragment** - handles the incident witness form page
+-   //FRAGMENT-INSPECTION
+-   **InspectionDetailFormFragment** - handles the inspection detail form page
+-   //FRAGMENT-LOCAL
+-   **LocalAuditFragment** - handles the local audit page
+-   **LocalDynamicFragment** - handles the local dynamic page
+-   **LocalFormsFragment** - handles the local forms page
+-   **LocalHazardFragment** - handles the local hazard page
+-   **LocalReportIncidentFragment** - handles the local report incident page
+-   **LocalSubSecletionActivity** -  handles the local sub-selection activity page
+-   //FRAGMENT-REFERENCE
+-   **ExposureLimitReferenceFragment** - handles the exposure limit reference page
+-   **GeneralReferenceFragment** - handles the general reference page
+-   **LocationReferenceFragment** - handles the location reference page
+-   **MapFragment** - handles the map page
+-   **ReferenceExposureListFragment** - handles the reference exposure list page                                
+-   **ReferenceListFragment** - handles the reference list page
+-   **RiskControlReferenceFragment** - handles the risk control reference page
+-   **SubTypeReferenceFragment** - handles the sub type reference page 
+-   **TypeReferenceFragment** - handles the type reference page
+-   **WorkerReferenceFragment** - handles the worker reference page
+-   //FRAGMENT-REGISTER-ENVIRONMENTAL
+-   **AtmosphericDetailsFragment** - handles the atmospheric details page
+-   **ConfinedSpacesDetailsFragment** - handles the confined spaces details page
+-   **CustomSubscriber** - handles the custom subscriber page
+-   **EntryDetailsFragment** - handles the entry details page
+-   **MeasurementDetailsFragment** - handles the measurement details page
+-   **MonitoringHistoryFragment ** - handles the monitoring history page
+-   **NoiseAssessmentDetailFragment** - handles the noice assessnent detail page
+-   **NoiseControlAssessmentFragment** - handles the noise control assessment page
+-   **NoiseControlDetailsFragment** - handles the noise control details page
+-   **PermitFragment** - handles the permit page
+-   //FRAGMENT-REGISTER-HAZARD
+-   **EmployeeExposureFragment** - handles the employee exposure page
+-   **RegisterAsbestosInspectionFragment** - handles the register asbestos inspection page
+-   **RegisterAsbestosRemovalFragment** - handles the register asbestos removal page
+-   **RegisterAsbestosFragment** - handles the register asbestos page
+-   **RegisterCarcinogensFragment** - handles the register carcinogens page
+-   //FRAGMENT-REGISTER-POLICY
+-   **AttendeeDetailFragment** - handles the attendee detail page
+-   **DrillDetailFormFragment** - handles the drill detail form page
+-   **EmergencyProcedureFragment** - handles the emergency procedure page
+-   **LegislationDetailFormFragment** - handles the legistlation detail form page
+-   **MeetingsDetailFormFragment** - handles the meetings detail form page
+-   **PointRaisedFormFragment** - handles the point raised form page
+-   **RegisterPolicyDetailFormFragment** - handles the register policy detail form page
+-   **TrainingDetailFormFragment** - handles the training detail form page
+-   //FRAGMENT-REGISTER-SAFETY
+-   **PpeEmployeeFragment** - handles the ppe employee page
+-   **RegisterEmergencyFragment** - handles the register emergency page
+-   **RegisterFireDetectFragment** - handles the register fire detect page
+-   **RegisterFireFightingFragment** - handles the register fire fighting page
+-   **RegisterFireAidFragment** - handles the register fire aid page
+-   **RegisterSafetyServicingFragment** - handles the register safety servicing page
+-   **RegisterSafetyTestingFragment** - handles the register safety testing page
+-   **RegisterSpillKitFragment** - handles the register spill kit page
+-   //FRAGMENT-REGISTER
+-   **RegisterAssetDetailFragment** - handles the register asset detail page
+-   **RegisterAssetServicingFragment** - handles the register asset servicing page
+-   **RegisterAssetTestingFragment** - handles the register asset testing page
+-   **RegisterHistoryFragment** - handles the register history page
+-   //FRAGMENT-SEARCH
+-   **ActionMonitorSearchFragment** - handles the action monitor search page
+-   **AssetSearchFragment** - handles the asset search page
+-   **AttendeeSearchFragment** - handles the attendee search page
+-   **AuditSearchFragment** - handles the audit search page
+-   **ConfinedSpaceSearchFragment** - handles the confined spage search page
+-   **EnviornmentalSearchFragment** - handles the environmental search page
+-   **HATSSearchFragment** - handles the HATS search fragment
+-   **HazardSearchFragment** - handles the hazard search page
+-   **IncidentSearchFragment** - handles the incident search page
+-   **PolicySearchFragment** - handles the policy search page
+-   **QChartSearchFragment** - handles the Q chart search page
+-   **RiskAssessmentSearchFragment** - handles the risk assessment search page
+-   **SiteRiskSearchFragment** - handles the site risk search page
+-   **SwmsSearchFragment** - handles the swms search page
+-   **SwpSearchFragment** - handles the swp search page
+-   //FRAGMENT-SITERISK 
+-   **ControlFragment** - handles the control page
+-   **NewSiteRiskFragment** - handles the new site risk page
+-   **RiskDetailFragment** - handles the risk detail page
+-   **RiskRatingFragment** - handles the risk rating page
+-   **RiskFragment** - handles the risk page
+-   **SiteRiskHazardFragment** - handles the site risk hazard page
+-                 
+-     
 
 
 ### TECHNICAL ARCHITECTURE
